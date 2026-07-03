@@ -2,10 +2,12 @@
 <html>
 	<head><title>Login Page</title>
 		<style>
-			header{
-				text-transform : uppercase;
-				color : indigo;
+			.pages{
+				display : flex;
+				justify-content : space-evenly;
+				text-decoration : underline;
 			}
+
 			footer{
 				text-transform : uppercase;
 				color : red
@@ -14,20 +16,26 @@
 				background-color :lightgrey;
 			}
 			#head{
-				color : green;
+				color : rgba(0, 255, 0, 0.3);
+				
 			}
 			.hover:hover{
-				background-color : blue
+				background-color : lightgreen
 			}
 		</style>	
 
 
 	</head>
 	<body>
-		<header><h1>This is header section</h1></header>
+		<div class = "pages">
+			<h1><a href="Home.html">Home</h1>	
+			<h1><a href="about.html">About Us</h1>
+			<h1><a href="Contact Us.html">Contact Us</h1>
+			<h1><a href="Register.html">SignUp</a></h1>	
+		</div>
 		<center>
-		<div style = "height : 550px; ">
-		<h1 id = "head">MIDH TECHNOLOGIES</h1>
+		<div style = "height : 520px; ">
+		<h1 id = "head"><u>MIDH TECHNOLOGIES</u></h1>
 		<h2>Enter your login credentials</h2>
 		<p>Username:</p>
 		<input type = "text">
@@ -41,7 +49,7 @@
 		
 	</body>
 	<footer>
-			<h1>This is footer section</h1>
+			<h1><u>This is footer section</u></h1>
 			
 		</footer>
 </html>
